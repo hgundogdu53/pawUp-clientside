@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import WebFont from 'webfontloader';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+WebFont.load({
+    google: {
+        families: ['Unica One', 'cursive']
+    }
+});
+
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
 
 

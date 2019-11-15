@@ -1,0 +1,19 @@
+h4.profile-title {
+    font-size: 1.75rem;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.profile-section {
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22.5rem;
+    margin-top: 0.5rem;
+    background-color: rgba(202,244,241, 0.2);
+    width: 30rem;
+}
+
+.update-post-section:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.151);
+}

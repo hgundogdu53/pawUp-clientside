@@ -1,0 +1,87 @@
+h1.main-title-post {
+    margin: 1rem;
+}
+
+h4.pet_name {
+    font-size: 1.75rem;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+a.email {
+    color: #d7efea;
+}
+
+a.email:hover {
+    color: #c4f39f;
+}
+
+.post-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bm-menu-wrap {
+    position: fixed ;
+    height: 100%;
+  }
+  
+  
+.card {
+    background-color: rgba(202,244,241, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22.5rem;
+    margin-top: 0.5rem;
+    max-height: 471.5px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.151);
+}
+  
+  
+.container {
+    border-top: #c4f39f 0.5px solid;
+    padding: 2rem 1.5rem;
+}
+
+  @media only screen and (min-width: 600px) {
+      .post-main {
+          display: grid;
+          grid-gap: 0.5rem 0.25rem;
+          grid-template-columns: auto auto;
+          justify-content: space-evenly;
+          overflow: hidden;
+          grid-template-areas: 'myArea myArea';
+      }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .post-main {
+        display: grid;
+        grid-gap: 0.5rem 0.25rem;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+        overflow: hidden;
+        grid-template-areas: 'myArea myArea';
+    }
+}
+
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+
+    80% {
+      transform: translateX(10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }

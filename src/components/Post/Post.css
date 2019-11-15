@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+.flex-container {
+    overflow: hidden;
+}
+
+.post-form-section {
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22.5rem;
+    margin-top: 0.5rem;
+    background-color: rgba(202,244,241, 0.2);
+    width: 25rem;
+}
+
+.post-form-section:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.151);
+}
+
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.sub-btn,
+.res-btn {
+    background-color: #fff;
+    color: #004690;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 7.5px 20px;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    border-radius: 100px;
+}
+
+.sub-btn:hover,
+.res-btn:hover {
+    cursor: pointer;
+    transform: translateY(-2.5px);
+    box-shadow: 0 5px 15px rgba(0, 17, 255, 0.2);
+}
+
+.sub-btn:active,
+.res-btn:active {
+    transform: translateY(-1px);
+}
+
+.post-form {
+    padding: 0.25rem 1.25rem;
+}
+
+.post-form label, .post-form input {
+    display: block;
+    width: 100%;
+    text-align: start;
+    margin-top: 0.25rem;
+}
+
+.post-form input {
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+.post-form input:focus {
+    outline: none;
+    background: rgb(186, 229, 243);
+    border-color: rgb(4, 127, 168);
+}
+
+.post-form label {
+    font-weight: bold;
+}
+
+.post-title {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.post-form button[type="submit"],
+.post-form button[type='reset'] {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.post-form-section {
+  padding: 10px 35px;
+}
+
+
+
+@media only screen and (min-width: 40rem) {
+    .post-form {
+        margin: auto;
+        width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 782px) {
+    .post-form-section {
+        width: 40rem;
+    }
+}

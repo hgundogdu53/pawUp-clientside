@@ -1,0 +1,24 @@
+.main-spotlight-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotlight-card {
+    background-color: rgba(202,244,241, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22.5rem;
+    margin-top: 0.5rem;
+}
+
+.spotlight-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.151);
+}
+  
+  /* Add some padding inside the card container */
+.container {
+    border-top: #c4f39f 0.5px solid;
+    padding: 2rem 1.5rem;
+}

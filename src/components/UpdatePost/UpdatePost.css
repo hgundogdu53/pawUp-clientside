@@ -1,0 +1,92 @@
+.update-post-section {
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22.5rem;
+    margin-top: 0.5rem;
+    background-color: rgba(202,244,241, 0.2);
+    width: 30rem;
+}
+
+.update-post-section:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.151);
+}
+
+
+.sub-btn,
+.res-btn {
+    background-color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 7.5px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    border-radius: 100px;
+}
+
+.sub-btn:hover, .res-btn:hover {
+    cursor: pointer;
+    transform: translateY(-2.5px);
+}
+
+.sub-btn:active, .res-btn:hover {
+    transform: translateY(-1px);
+}
+
+.update-post-form {
+    padding: 1rem;
+}
+
+.update-post-form label, .update-post-form input {
+    display: block;
+    width: 100%;
+    text-align: start;
+    margin-top: 0.5rem;
+}
+
+.update-post-form input {
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+.update-post-form input:focus {
+    outline: none;
+    border-color: rgb(4, 127, 168);
+}
+
+.update-post-form label {
+    font-weight: bold;
+}
+
+.update-post-section {
+    padding: 5px 75px;
+}
+
+.update-post-title {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.update-post-form button[type="submit"],
+.update-post-form button[type="reset"] {
+    display: inline-block;
+    margin-top: 1rem;
+
+}
+
+
+@media only screen and (min-width: 40rem) {
+    .signup_form {
+        margin: auto;
+        width: 35rem;
+    }
+}
+
+@media only screen and (min-width: 782px) {
+    .update-post-section {
+        width: 40rem;
+    }
+}

@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Unica One', cursive;
+    max-height: 100%;
+
+}
+
+body {
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Unica One', cursive;
+    overflow: hidden;
+
+  }
+  
+  header {
+    backface-visibility: hidden;
+  }
+  
+  section {
+    padding: 25px 10px;
+  }
+  
+  p {
+    margin: 0 auto;
+    max-width: 60ch;
+  }
+
+  h1#landing-title {
+    padding-top: 10rem;
+  }
+
+  
+
+  h1, h2, h2, h4 {
+    font-family: 'Unica One', cursive;
+  }
+
+  
+  
+  p + p {
+    margin-top: 15px;
+  }
+
+  #landing-title {
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+  }
+
+  #phrase {
+    animation-name: moveInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+  }
+
+ 
+
+  .landing-main {
+    
+    background-image: url('../../images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    
+
+
+  .btn,
+  .btn:visited {
+    background-color: #fff;
+    color: #004690;
+    border-color: #0046909d;
+    margin-top: 15px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all .2s;
+    border-radius: 100px;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    transform: translateY(-2.5px);
+    box-shadow: 0 5px 15px rgba(0, 17, 255, 0.2);
+  }
+
+  .btn:active {
+    transform: translateY(-1px);
+  }
+  .footer {
+    background-color: none transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 7%;
+  
+    
+}
+  
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+
+    80% {
+      transform: translateX(10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+
+    80% {
+      transform: translateX(-10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+
+@media only screen and (min-width: 960px) {
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+} 

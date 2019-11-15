@@ -1,0 +1,69 @@
+.myPost-container {
+    background-color: rgba(202,244,241, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22.5rem;
+    margin-top: 0.5rem;
+    padding: 15px 10px;
+}
+
+.myPost-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.151);
+}
+
+
+.container {
+    max-height: 379.5px;
+}
+
+.deletePostBtn,
+.update-btn {
+    background-color: #fff;
+    color: #004690;
+    margin-top: 15px;
+    padding: 7.5px 20px;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    border-radius: 100px;
+}
+
+.deletePostBtn:hover,
+.update-btn:hover {
+    cursor: pointer;
+    transform: translateY(-2.5px);
+    box-shadow: 0 5px 15px rgba(0, 17, 255, 0.2);
+}
+
+.deletePostBtn:active,
+.update-btn:active {
+    transform: translateY(-1px);
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .myPost-grid {
+        display: grid;
+        grid-gap: 0.5rem 0.75rem;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        overflow: hidden;
+        grid-template-areas: 'myArea myArea';
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+  .myPost-grid {
+      display: grid;
+      grid-gap: 0.5rem 0.25rem;
+      grid-template-columns: auto auto auto;
+      justify-content: space-evenly;
+      overflow: hidden;
+      grid-template-areas: 'myArea myArea myArea';
+  }
+}

@@ -1,0 +1,108 @@
+.header-nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 0;
+    height: 90%;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+    color: #bdc3c7;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: black;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    border-radius: 20px;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background:black;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: rgba(49, 52, 102, 0.678);
+    padding: 2em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    color: #d7efea;
+  }
+  
+  .bm-item:hover {
+    background-color: #004690;
+    color: #d7efea;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-title {
+    display:flex;
+    justify-content:space-between;
+    text-decoration: none;
+    padding-left: 3%;
+}
+  .title {
+     text-align: center;
+     margin-top:5%;
+     padding-top: 1%;
+  }
+  span.title {
+    padding-left: 2rem;
+    text-align: center;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    border-radius: 50%;
+    margin-top:5%;
+  }
