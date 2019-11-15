@@ -15,7 +15,7 @@ function HamburgerNav(props) {
                 {TokenService.hasAuthToken() ?
                     <LoggedInNav handleLogout={props.handleLogout} />
                     :
-                    <Menu>
+                    <Menu right>
                         <Link to='/login' className="menu-item">Log In</Link><br />
                         <Link to='/signup' className="menu-item">Sign Up</Link>
                     </Menu>

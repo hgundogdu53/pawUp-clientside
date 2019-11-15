@@ -15,7 +15,6 @@ import Profile from './components/Profile/Profile';
 import UpdateUser from './components/UpdateUser/UpdateUser';
 import AuthApiService from './services/auth-api-service';
 import SignUpForm from './components/SignUpForm/SignUpForm';
-import Loader from './components/Loader/Loader';
 import HamburgerNav from './components/HamburgerNav/HamburgerNav';
 import './App.css';
 
