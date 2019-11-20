@@ -19,13 +19,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "CI=true react-scripts test --colors",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "now ./build",
-    "postdeploy": "now alias -A ./build/now.json"
+    "deploy": "git push heroku master"
   },
   "eslintConfig": {
     "extends": "react-app"
