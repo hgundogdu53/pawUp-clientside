@@ -4,6 +4,7 @@
   "private": true,
   "author": "Huseyin Gundogdu <hgundogdu53@gmail.com>",
   "dependencies": {
+    "cors": "^2.8.5",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "font-awesome": "^4.7.0",
