@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Unica One', cursive;
-    max-height: 100%;
-
 }
 
 body {
@@ -11,7 +9,6 @@ body {
     line-height: 1.5;
     text-align: center;
     font-family: 'Unica One', cursive;
-    overflow: hidden;
 
   }
   
@@ -63,7 +60,7 @@ body {
     background-image: url('../../images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top right;
+    background-position: center 80px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,11 +97,10 @@ body {
     background-color: none transparent;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding-left: 20%;
-    padding-right: 10%;
-    padding-top: 1%;
-  
+    align-items:baseline;
+    padding-top: 7%;
+    margin-left: 35%;
+    margin-right: 30%;
     
 }
   
