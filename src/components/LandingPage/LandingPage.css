@@ -63,7 +63,7 @@ body {
     background-image: url('../../images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -101,9 +101,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 30%;
-    padding-right: 20%;
-    padding-top: 7%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 1%;
   
     
 }

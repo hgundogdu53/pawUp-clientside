@@ -15,11 +15,11 @@ function LandingPage(props) {
                 <section className='desc-section'>
                     {/* <Spotlight /> */}
                 </section>
+                <footer className="footer">
+                    <h5>Huseyin Gundogdu</h5>
+                    <p>Copyright @ 2019</p>
+                </footer>
             </main>
-            <footer className="footer">
-                <h5>Huseyin Gundogdu</h5>
-                <p>Copyright @ 2019</p>
-            </footer>
         </>
     )
 }

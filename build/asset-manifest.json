@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a7e2d14.chunk.css",
+    "main.js": "/static/js/main.f8d9c163.chunk.js",
+    "main.js.map": "/static/js/main.f8d9c163.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ed30551.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ed30551.js.map",
+    "static/js/2.d45fa98e.chunk.js": "/static/js/2.d45fa98e.chunk.js",
+    "static/js/2.d45fa98e.chunk.js.map": "/static/js/2.d45fa98e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2d9d4529a066370718e297b3d0cf9dbd.js": "/precache-manifest.2d9d4529a066370718e297b3d0cf9dbd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4a7e2d14.chunk.css.map": "/static/css/main.4a7e2d14.chunk.css.map",
+    "static/media/LandingPage.css": "/static/media/background.62348c96.png",
+    "static/media/paws-logo.png": "/static/media/paws-logo.812d3403.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ed30551.js",
+    "static/js/2.d45fa98e.chunk.js",
+    "static/css/main.4a7e2d14.chunk.css",
+    "static/js/main.f8d9c163.chunk.js"
+  ]
+}
