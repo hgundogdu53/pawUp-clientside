@@ -63,7 +63,7 @@ class App extends Component {
         'Authorization': `Bearer ${TokenService.getAuthToken()}`
       }
     }
-    fetch(`${config.API_ENDPOINT}/posts/MyPosts`, options)
+    fetch(`${config.API_ENDPOINT}/posts/myPosts`, options)
       .then(res => {
         if (res.ok) {
           return res.json();
@@ -73,7 +73,7 @@ class App extends Component {
         }
       })
       .then(postInput => {
-        this.setState({ myposts: postInput })
+        this.setState({ myPosts: postInput })
       })
       .catch(err => {
         console.error({ err })
@@ -194,7 +194,7 @@ class App extends Component {
     })
       .then(res => {
         if (res.ok) {
-          window.location.href = '/myposts'
+          window.location.href = '/myPosts'
         }
         else {
           return res.json().then(err => {
@@ -348,7 +348,7 @@ class App extends Component {
         <header className="header">
           <Route exact path="/" render={(props) => <MainNav {...props} handleLogout={this.handleLogout} logged_in={this.state.logged_in} />} />
           <Route path="/posts" render={(props) => <HamburgerNav {...props} handleLogout={this.handleLogout} />} />
-          <Route path="/myposts" render={(props) => <HamburgerNav {...props} handleLogout={this.handleLogout} />} />
+          <Route path="/myPosts" render={(props) => <HamburgerNav {...props} handleLogout={this.handleLogout} />} />
           <Route path="/edit" render={(props) => <HamburgerNav {...props} handleLogout={this.handleLogout} />} />
           <Route path="/login" render={(props) => <HamburgerNav {...props} handleLogout={this.handleLogout} />} />
           <Route path="/profile" render={(props) => <HamburgerNav {...props} handleLogout={this.handleLogout} />} />
@@ -359,7 +359,7 @@ class App extends Component {
         <div className='App_main'>
           <ApiContext.Provider value={value}>
             <Route exact path="/" render={(props) => <LandingPage {...props} posts={this.state.posts} addUser={event => this.handleUserSubmit(event)} signUpError={this.state.signUpError} />} />
-            <Route exact path='/myposts' render={(props) => <MyPosts {...props} setId={(post_id) => this.setPostId(post_id)} handleDeletePost={post_id => this.handleDeletePost(post_id)} />} />
+            <Route exact path='/myPosts' render={(props) => <MyPosts {...props} setId={(post_id) => this.setPostId(post_id)} handleDeletePost={post_id => this.handleDeletePost(post_id)} />} />
             <Route exact path='/edit' render={(props) => <UpdatePost {...props} posts={this.state.posts} postId={this.state.post_id} updatePost={(e) => this.handleUpdate(this.state.post_id, e)} />} />
             <Route exact path='/login' render={(props) => <LoginForm {...props} loginUser={(event) => (this.loginUser(event))} error={this.state.logInError} />} />
             <Route exact path='/editProfile' component={UpdateUser} />

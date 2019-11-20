@@ -22,7 +22,7 @@ class MyPosts extends Component {
                 'Authorization': `bearer ${TokenService.getAuthToken()}`
             }
         }
-        fetch(`${config.API_ENDPOINT}/posts/MyPosts`, options)
+        fetch(`${config.API_ENDPOINT}/posts/myPosts`, options)
             .then(res => {
                 if (res.ok) {
                     return res.json();
