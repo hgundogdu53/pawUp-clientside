@@ -63,7 +63,7 @@ class App extends Component {
         'Authorization': `Bearer ${TokenService.getAuthToken()}`
       }
     }
-    fetch(`${config.API_ENDPOINT}/posts/myposts`, options)
+    fetch(`${config.API_ENDPOINT}/posts/MyPosts`, options)
       .then(res => {
         if (res.ok) {
           return res.json();
