@@ -22,7 +22,7 @@ class Profile extends Component {
             }
         }
 
-        fetch(`${config.API_BASE_URL}/users/user`, options)
+        fetch(`${config.API_ENDPOINT}/users/user`, options)
             .then(res => {
                 if (res.ok) {
                     return res.json();

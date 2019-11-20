@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "pawUp",
+    "alias": "hgundogdu-dream-dogs",
+    "routes": [
+        {
+            "src": "^/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
+            "src": ".*",
+            "dest": "/index.html"
+        }
+    ]
+}
