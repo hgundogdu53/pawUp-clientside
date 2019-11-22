@@ -16,7 +16,7 @@ function PostsHomePage(props) {
                             <section className='container'>
                                 <p>Owner Email: <a href={`mailto:${post.email}?subject=Interested in ${post.pet_name}!`} className='email'>{post.email}</a></p>
                                 <p>Birthdate: {moment(post.birthdate).format("MM-DD-YYYY")}</p>
-                                <p>Type of Pet: {post.types_of_pet}</p>
+                                <p>Type of Pet: {post.type_of_pet}</p>
                                 <p>Hobbies: {post.hobbies}</p>
                             </section>
                         </section>

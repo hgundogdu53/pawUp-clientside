@@ -163,6 +163,7 @@ class App extends Component {
       password: login_password.value
     })
       .then(res => {
+        console.log('response: ', res)
         login_email.value = ''
         login_password.value = ''
         TokenService.saveAuthToken(res.authToken);

@@ -14,7 +14,7 @@ const AuthApiService = {
                     return res.json().then(e => Promise.reject(e))
                 }
                 else {
-                    res.json()
+                    return res.json()
                 }
             })
             .catch(error => {
@@ -34,7 +34,7 @@ const AuthApiService = {
                     return res.json().then(e => Promise.reject(e))
                 }
                 else {
-                    res.json()
+                    return res.json()
                 }
             })
             .catch(error => {

@@ -37,7 +37,7 @@ class SignUpForm extends Component {
             email: this.state.email,
             password: this.state.password
         }
-
+        console.log(user)
         fetch(`${config.API_ENDPOINT}/users`, {
             method: 'POST',
             headers: {
@@ -51,7 +51,8 @@ class SignUpForm extends Component {
             .then(user => {
                 const form = document.getElementById('signup_form');
                 form.reset();
-                window.location.href = '/login'
+                console.log('second console: ', user)
+                // window.location.href = '/login'
             })
             .catch(error => {
                 this.setState({ signupError: error })
