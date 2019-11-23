@@ -54,16 +54,14 @@ class MyPosts extends Component {
                                     <section className='container'>
                                         <p>Owner Email:  <a href={`mailto:${post.email}?subject=Interested in ${post.pet_name}!`} className='email'>{post.email}</a></p>
                                         <p>Birthdate: {moment(post.birthdate).format("MM-DD-YYYY")}</p>
+                                        <p>Location: {post.location}</p>
                                         <p>Types-of-pet: {post.type_of_pet}</p>
                                         <p>Hobbies: {post.hobbies}</p>
                                     </section>
-                                    <button className='deletePostBtn' onClick={() => (
-                                        /* eslint-disable */
-                                        this.props.handleDeletePost(post.id, this.handleDeletePost),
-                                        this.setState({ posts: this.state.posts.filter(posts => posts.id !== post.id) })
-                                        /* eslint-disable */
-                                    )
-                                    }>Delete</button>
+                                    <button className='deletePostBtn' onClick={() => {
+                                        this.props.handleDeletePost(post.id, this.handleDeletePost);
+                                        this.setState({ posts: this.state.posts.filter(posts => posts.id !== post.id) });
+                                    }}>Delete</button>
                                     <Link to='/edit'><button className='update-btn' onClick={() => {
                                         this.props.setId(post.id)
                                     }}>Update</button></Link>

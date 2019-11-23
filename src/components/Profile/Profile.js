@@ -35,9 +35,10 @@ class Profile extends Component {
                 this.setState({ users: data })
             })
             .catch(err => {
-                throw new Error(err)
-            }
-            )
+                alert(`Something went wrong ${err}`)
+            })
+
+
     }
 
     render() {

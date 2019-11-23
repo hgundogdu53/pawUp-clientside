@@ -3,7 +3,7 @@ h1.main-title-post {
 }
 
 h4.pet_name {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     animation-name: moveInLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -30,12 +30,13 @@ a.email:hover {
   
   
 .card {
-    background-color: rgba(202,244,241, 0.2);
+  display:inline-block;
+    background-color: rgba(93, 136, 168, 0.616);
     transition: 0.3s;
     border-radius: 5px;
     width: 22.5rem;
-    margin-top: 0.5rem;
-    max-height: 471.5px;
+    margin-top: 0.1rem;
+    
 }
   
 .card:hover {
@@ -45,13 +46,13 @@ a.email:hover {
   
 .container {
     border-top: #c4f39f 0.5px solid;
-    padding: 2rem 1.5rem;
+    padding: 0.1rem 1.5rem;
 }
 
   @media only screen and (min-width: 600px) {
       .post-main {
           display: grid;
-          grid-gap: 0.5rem 0.25rem;
+          grid-gap: 0.2rem 0.25rem;
           grid-template-columns: auto auto;
           justify-content: space-evenly;
           overflow: hidden;

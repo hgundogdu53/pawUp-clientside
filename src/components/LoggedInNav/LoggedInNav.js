@@ -4,7 +4,7 @@ import { slide as Menu } from 'react-burger-menu';
 
 function LoggedInNav(props) {
     return (
-        <Menu>
+        <Menu right>
             <Link to='/posts' className="menu-item">Posts</Link><br className='bm-item' />
             <Link to='/addPost' className="menu-item">Create Post</Link><br className='bm-item' />
             <Link to='/myPosts' className="menu-item">My Post</Link><br className='bm-item' />

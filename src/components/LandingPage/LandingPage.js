@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Spotlight from '../Spotlight/Spotlight';
 import './LandingPage.css';
 
 function LandingPage(props) {
@@ -12,8 +11,18 @@ function LandingPage(props) {
                     <h2 id="phrase">Connect your pets with pets from your neighborhood.</h2>
                     <Link to='/signup'><button className='btn'>Sign Up Today!</button></Link>
                 </header>
-                <section className='desc-section'>
-                    {/* <Spotlight /> */}
+                <section className='main-spotlight-section'>
+                    <section className='spotlight-card'>
+                        <h3 className='spotlight-title'>PawUp Spotlight</h3>
+
+                        <section className='container'>
+                            <p>Name:  <a href="mailto:hgundogdu53@gmail.com">Muffin</a></p>
+                            <p>Birthdate: '01-01-2019'</p>
+                            <p>Types-of-pet: 'white cat'</p>
+                            <p>Location: 'San Francisco'</p>
+                            <p>Hobbies: 'White cat that loves playing with small cats. Friendly and lovely.'</p>
+                        </section>
+                    </section>
                 </section>
                 <footer className="footer">
                     <h5>Huseyin Gundogdu</h5>

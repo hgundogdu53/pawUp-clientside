@@ -47,7 +47,7 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: rgba(49, 52, 102, 0.678);
+    background: rgba(93, 136, 168, 0.616);
     padding: 2em 1.5em 0;
     font-size: 1.15em;
   }
@@ -66,7 +66,7 @@
   /* Individual item */
   .bm-item {
     display: inline-block;
-    color: #d7efea;
+    color: #05362c;
   }
   
   .bm-item:hover {

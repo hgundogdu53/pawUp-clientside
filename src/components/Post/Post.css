@@ -4,6 +4,11 @@
 
 .flex-container {
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .post-form-section {
@@ -11,7 +16,7 @@
     border-radius: 5px;
     width: 22.5rem;
     margin-top: 0.5rem;
-    background-color: rgba(202,244,241, 0.2);
+    background-color: rgba(93, 136, 168, 0.616);
     width: 25rem;
 }
 

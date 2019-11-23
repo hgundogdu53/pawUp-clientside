@@ -52,7 +52,7 @@ class SignUpForm extends Component {
                 const form = document.getElementById('signup_form');
                 form.reset();
                 console.log('second console: ', user)
-                // window.location.href = '/login'
+                window.location.href = '/login'
             })
             .catch(error => {
                 this.setState({ signupError: error })
@@ -138,9 +138,7 @@ class SignUpForm extends Component {
             fieldErrors.email = 'Email is required';
             hasError = true;
         } else {
-            /* eslint-disable */
             if (!fieldValue.match(new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/))) {
-                /* eslint-disable */
                 fieldErrors.email = 'Invalid Email Address'
                 hasError = true;
             } else {
