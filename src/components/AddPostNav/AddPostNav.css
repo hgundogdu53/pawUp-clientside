@@ -4,3 +4,31 @@
     justify-content: flex-start;
     padding-top: 0;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+    
+    .bm-burger-button {
+      position: fixed;
+      width: 28px;
+      height: 20px;
+      right: 28px;
+      top: 28px;
+      color: #bdc3c7;
+    }
+    .bm-cross-button {
+      height: 18px;
+      width: 18px;
+    }
+    .icon {
+      width: 3rem;
+      height: 3rem;
+    }
+    .nav-title .title {
+      text-align: center;
+      margin-top:6%;
+      padding-left: 6%;
+      font-size: 36px;    
+    }
+  
+  
+  }

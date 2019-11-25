@@ -50,6 +50,7 @@
     background: rgba(93, 136, 168, 0.616);
     padding: 2em 1.5em 0;
     font-size: 1.15em;
+    width: auto;
   }
   
   /* Morph shape necessary with bubble or elastic */
@@ -105,4 +106,32 @@
     position: relative;
     border-radius: 50%;
     margin-top:5%;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 760px) {
+  
+    .bm-burger-button {
+      position: fixed;
+      width: 28px;
+      height: 20px;
+      right: 28px;
+      top: 28px;
+      color: #bdc3c7;
+    }
+    .bm-cross-button {
+      height: 18px;
+      width: 18px;
+    }
+    .icon {
+      width: 3rem;
+      height: 3rem;
+    }
+    .nav-title .title {
+      text-align: center;
+      margin-top:6%;
+      padding-left: 6%;
+      font-size: 36px;    
+    }
+  
+  
   }
