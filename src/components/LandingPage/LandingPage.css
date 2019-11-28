@@ -9,7 +9,13 @@ body {
     line-height: 1.5;
     text-align: center;
     font-family: 'Unica One', cursive;
+  }
 
+.landing-header {
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 1.5px white;
+    font-size:24px;
   }
   
   header {
@@ -94,8 +100,10 @@ body {
 
 /* Add some padding inside the card container */
 .container {
-  border-top: #c4f39f 0.5px solid;
+  border-top: #0046909d 0.5px solid;
   padding: 2rem 1.5rem;
+  color: black;
+  font-weight: bold;
 }
 .container a {
   color: white;
@@ -133,6 +141,8 @@ body {
     padding-top: 7%;
     margin-left: 35%;
     margin-right: 30%;
+    color: black;
+    text-shadow: 2px 1.5px white;
     
 }
   
