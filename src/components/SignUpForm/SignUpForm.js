@@ -210,12 +210,12 @@ class SignUpForm extends Component {
                     <form className='signup_form' id='signup_form' onSubmit={(event) => this.handleUserSubmit(event)}>
                         <div>
                             <label htmlFor="first_name">First name:</label>
-                            <input placeholder='First Name' type="text" name='first_name' id='first-name' onChange={e => this.updateFirstName(e.target.value)} required />
+                            <input type="text" name='first_name' id='first-name' onChange={e => this.updateFirstName(e.target.value)} required />
                             <ValidationError hasError={!this.state.firstNameValid} message={this.state.validationMessages.name} />
                         </div>
                         <div>
                             <label htmlFor="last_name">Last name:</label>
-                            <input type="text" name='last_name' id='last-name' placeholder='Last Name' onChange={e => this.updateLastName(e.target.value)} required />
+                            <input type="text" name='last_name' id='last-name' onChange={e => this.updateLastName(e.target.value)} required />
                             <ValidationError hasError={!this.state.lastNameValid} message={this.state.validationMessages.name} />
                         </div>
                         <div>
@@ -234,6 +234,7 @@ class SignUpForm extends Component {
                             <ValidationError hasError={!this.state.passwordMatch} message={this.state.validationMessages.repeatPassword} />
                         </div>
                         <button className='sub-btn' type='submit' disabled={!this.state.formValid}>Sign Up</button>
+
                     </form>
                 </section>
             </section>

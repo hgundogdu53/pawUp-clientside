@@ -1,7 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## pawUp-clientside
 Connect your pets with pets from your neighborhood.
+
+## Live Link: https://pawup-clientside.hgundogdu53.now.sh/
+
+## Built with
+Front-End:
+HTML,CSS,React.
+Back-End:
+Node.js, Express, Knex, PostgreSQL
+Testing: Mocha,Chai,Jest,Enzyme
+Authentication: bcrypt, JWTs
+
+## Features
+    -Create pet posts
+    -Create a user profile
+    -Find other pets
+    -Update pet posts
+    -Update user profile
+    -Delete logged in user's pet posts
+    -Delete logged in user profile
 
 ## Available Scripts
 
