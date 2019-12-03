@@ -4,9 +4,11 @@
   "private": true,
   "author": "Huseyin Gundogdu <hgundogdu53@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "cors": "^2.8.5",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
     "font-awesome": "^4.7.0",
     "moment": "^2.24.0",
     "react": "^16.11.0",

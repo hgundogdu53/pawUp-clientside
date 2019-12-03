@@ -20,7 +20,7 @@ function UpdatePost(props) {
                             <input type="email" name="owner_email" defaultValue={post[0].email} required />
                         </div>
                         <div className="form-section">
-                            <label htmlFor="breed">Type of Pet</label>
+                            <label htmlFor="type_of_pet">Type of Pet</label>
                             <input type="text" name="type_of_pet" defaultValue={post[0].type_of_pet} required />
                         </div>
                         <div className="form-section">

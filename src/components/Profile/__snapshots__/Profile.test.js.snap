@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile component renders without crashing 1`] = `
+<main
+  className="flex-container"
+>
+  <header
+    role="banner"
+  >
+    <h2>
+      My Profile
+    </h2>
+  </header>
+  <section
+    className="profile-section"
+  >
+    <h4
+      className="profile-title"
+    >
+       
+    </h4>
+    <p>
+      Email: 
+    </p>
+    <button
+      className="deletePostBtn"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+    <Link
+      to="/editProfile"
+    >
+      <button
+        className="update-btn"
+      >
+        Update
+      </button>
+    </Link>
+  </section>
+</main>
+`;

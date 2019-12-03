@@ -11,6 +11,22 @@ Node.js, Express, Knex, PostgreSQL
 Testing: Mocha,Chai,Jest,Enzyme
 Authentication: bcrypt, JWTs
 
+### LandingPage
+![LandingPage] (./src/images/LandingPage.png)
+
+### PostsHomePage
+![AllpostsPage] (./src/images/AllPostsPage.png)
+
+### MyProfilePage
+![MyProfilePage] (./src/images/MyProfilePage.png)
+
+### SignUpPage
+![SignUpPage] (./src/images/SignUpPage.png)
+
+### MyPostsPage
+![MyPostsPage] (./src/images/MyPostsPage.png)
+
+
 ## Features
     -Create pet posts
     -Create a user profile

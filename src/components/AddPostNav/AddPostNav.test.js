@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import LandingPage from './LandingPage';
+import AddPostNav from './AddPostNav';
 
-describe(`LandingPage component`, () => {
+describe(`AddPostNav component`, () => {
     it('renders without crashing', () => {
-        const wrapper = shallow(<LandingPage />);
+        const wrapper = shallow(<AddPostNav />);
         expect(toJson(wrapper)).toMatchSnapshot();
     });
 });

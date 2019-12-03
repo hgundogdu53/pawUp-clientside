@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdatePost component renders without crashing 1`] = `
+<main
+  className="flex-container"
+>
+  <header>
+    <h1
+      className="update-post-title"
+    >
+      Update Post
+    </h1>
+  </header>
+  <section
+    className="update-post-section"
+  >
+    <form
+      className="update-post-form"
+      id="update-post-form"
+    >
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="pet_name"
+        >
+          Pet Name
+        </label>
+        <input
+          defaultValue="muffin"
+          name="pet_name"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="owner_email"
+        >
+          Email
+        </label>
+        <input
+          defaultValue="hgundogdu53@gmail.com"
+          name="owner_email"
+          required={true}
+          type="email"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="type_of_pet"
+        >
+          Type of Pet
+        </label>
+        <input
+          defaultValue="cat"
+          name="type_of_pet"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="lifestyle"
+        >
+          Hobbies
+        </label>
+        <textarea
+          defaultValue="Small dog that loves to run around. Will fit well in smaller homes as well as larger homes. Will need atleast an hour of exercise to keep out of trouble."
+          name="lifestyle"
+          placeholder="Please enter a description of your dogs needs and lifestyle"
+          required={true}
+          rows="15"
+        />
+      </div>
+      <button
+        className="sub-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        className="res-btn"
+        type="reset"
+      >
+        Reset
+      </button>
+    </form>
+  </section>
+</main>
+`;

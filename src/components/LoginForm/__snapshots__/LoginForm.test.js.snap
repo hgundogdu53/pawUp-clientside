@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm component renders without crashing 1`] = `
+<section
+  className="flex-container"
+>
+  <h2
+    className="login-title"
+  >
+    Log In
+  </h2>
+  <form
+    className="login_form"
+  >
+    <section
+      className="login_form-container"
+    >
+      <div>
+        <label
+          htmlFor="login_email"
+        >
+          Email:
+        </label>
+        <input
+          id="login_email"
+          name="login_email"
+          type="email"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="login_password"
+        >
+          Password:
+        </label>
+        <input
+          id="login_password"
+          name="password"
+          type="password"
+        />
+      </div>
+      <button
+        className="sub-btn"
+        type="submit"
+      >
+        Log in
+      </button>
+    </section>
+  </form>
+</section>
+`;

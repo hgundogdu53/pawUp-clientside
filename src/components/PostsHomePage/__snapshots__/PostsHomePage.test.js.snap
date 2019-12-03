@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsHomePage component renders without crashing 1`] = `
+<main>
+  <div
+    role="banner"
+  >
+    <h1
+      className="main-title-post"
+    >
+      PawUp Community Pets
+    </h1>
+  </div>
+  <section
+    className="post-main"
+  >
+    <section
+      className="card"
+    >
+      <h4
+        className="pet_name"
+      >
+        muffin
+      </h4>
+      <section
+        className="container"
+      >
+        <p>
+          Owner Email: 
+          <a
+            className="email"
+            href="mailto:hgundogdu53@gmail.com?subject=Interested in muffin!"
+          >
+            hgundogdu53@gmail.com
+          </a>
+        </p>
+        <p>
+          Birthdate: 
+          06-18-2018
+        </p>
+        <p>
+          Location: 
+        </p>
+        <p>
+          Type of Pet: 
+          cat
+        </p>
+        <p>
+          Hobbies: 
+          Small dog that loves to run around. Will fit well in smaller homes as well as larger homes. Will need atleast an hour of exercise to keep out of trouble.
+        </p>
+      </section>
+    </section>
+  </section>
+</main>
+`;
