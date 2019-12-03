@@ -132,6 +132,10 @@
       padding-left: 6%;
       font-size: 36px;    
     }
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.1);
+      width: 20px;
+    }
   
   
   }
