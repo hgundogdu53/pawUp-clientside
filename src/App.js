@@ -84,8 +84,9 @@ class App extends Component {
     event.preventDefault();
     const post = {
       pet_name: event.target.pet_name.value,
-      age: event.target.age.value,
-      types_of_pet: event.target.types_of_pet.value,
+      type_of_pet: event.target.type_of_pet.value,
+      birthdate: event.target.birthdate.value,
+      location: event.target.location.value,
       hobbies: event.target.hobbies.value
     }
 
