@@ -21,7 +21,7 @@ Authentication: bcrypt, JWTs
 ![MyProfilePage](./src/images/MyProfilePage.png)
 
 ### SignUpPage
-![SignUpPage](./src/images/SignUpPage.png)
+![SignUpPage](./src/images/SignupPage.png)
 
 ### MyPostsPage
 ![MyPostsPage](./src/images/MyPostsPage.png)
