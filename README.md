@@ -15,7 +15,7 @@ Authentication: bcrypt, JWTs
 ![LandingPage] (./src/images/LandingPage.png)
 
 ### PostsHomePage
-![AllpostsPage] (./src/images/AllPostsPage.png)
+![AllpostsPage](./src/images/AllPostsPage.png)
 
 ### MyProfilePage
 ![MyProfilePage] (./src/images/MyProfilePage.png)
