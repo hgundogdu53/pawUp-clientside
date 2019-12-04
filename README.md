@@ -12,19 +12,19 @@ Testing: Mocha,Chai,Jest,Enzyme
 Authentication: bcrypt, JWTs
 
 ### LandingPage
-![LandingPage] (./src/images/LandingPage.png)
+![LandingPage](./src/images/LandingPage.png)
 
 ### PostsHomePage
 ![AllpostsPage](./src/images/AllPostsPage.png)
 
 ### MyProfilePage
-![MyProfilePage] (./src/images/MyProfilePage.png)
+![MyProfilePage](./src/images/MyProfilePage.png)
 
 ### SignUpPage
-![SignUpPage] (./src/images/SignUpPage.png)
+![SignUpPage](./src/images/SignUpPage.png)
 
 ### MyPostsPage
-![MyPostsPage] (./src/images/MyPostsPage.png)
+![MyPostsPage](./src/images/MyPostsPage.png)
 
 
 ## Features
