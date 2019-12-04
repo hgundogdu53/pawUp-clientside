@@ -8,4 +8,10 @@
       justify-content: space-between;
       flex-basis: auto;
     }
+    .App .header .header-nav .bm-overlay {
+      width: auto;
+    }
+    .App .header .header-nav .bm-menu-wrap {
+      width: 160px;
+    }
   }

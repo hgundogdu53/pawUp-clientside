@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container .login_form {
+    text-transform: none;
+}
+.demo-credentials {
+    display: block;
+    margin-top: 15%;
+    text-align: center;
+    text-transform: none;
+    border: 3px solid;
+    padding: 5px 20px;
+
+}

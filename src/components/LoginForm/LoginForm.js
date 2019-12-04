@@ -19,6 +19,11 @@ function LoginForm(props) {
                     <button type='submit' className='sub-btn'>Log in</button>
                     {props.error ? <h4>Incorrect Email or Password</h4> : <></>}
                 </section>
+                <div className='demo-credentials'>
+                    <h3>Demo Credentials</h3>
+                    <h4>e-mail: hgundogdu53@yahoo.com</h4>
+                    <h4>Password: 123456Hg!</h4>
+                </div>
             </form>
 
         </section>
