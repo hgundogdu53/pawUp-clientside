@@ -11,23 +11,23 @@ function Post(props) {
                 <form id="post-form" className='post-form' onSubmit={props.addPost}>
                     <div className="form-section">
                         <label htmlFor="pet_name">Pet Name</label>
-                        <input type="text" name="dog_name" placeholder="Muffin" required />
+                        <input type="text" name="pet_name" placeholder="Muffin" required />
                     </div>
                     <div className="form-section">
-                        <label htmlFor="breed">Type of Pet</label>
-                        <input type="text" name="breed" placeholder="Cat" required />
+                        <label htmlFor="type_of_pet">Type of Pet</label>
+                        <input type="text" name="type_of_pet" placeholder="Cat" required />
                     </div>
                     <div className="form-section">
-                        <label htmlFor="pet_bday">Birthdate</label>
-                        <input type="date" name="pet_bday" />
+                        <label htmlFor="birthdate">Birthdate</label>
+                        <input type="date" name="birthdate" />
                     </div>
                     <div className="form-section">
-                        <label htmlFor="pet_location">Location</label>
-                        <input type="text" name="pet_location" placeholder="San Francisco" />
+                        <label htmlFor="location">Location</label>
+                        <input type="text" name="location" placeholder="San Francisco" />
                     </div>
                     <div className="form-section">
-                        <label htmlFor="lifestyle">Hobbies</label>
-                        <textarea name="lifestyle" rows="15" placeholder="Please type in hobbies of your pet" required></textarea>
+                        <label htmlFor="hobbies">Hobbies</label>
+                        <textarea name="hobbies" rows="15" placeholder="Please type in hobbies of your pet" required></textarea>
                     </div>
                     <button type="submit" className="sub-btn">Submit</button>
                     <button type="reset" className="res-btn">Reset</button>

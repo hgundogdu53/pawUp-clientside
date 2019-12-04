@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import LandingPage from './LandingPage';
+import UpdateUser from './UpdateUser';
 
-describe(`LandingPage component`, () => {
+describe(`UpdateUser component`, () => {
     it('renders without crashing', () => {
-        const wrapper = shallow(<LandingPage />);
+        const wrapper = shallow(<UpdateUser />);
         expect(toJson(wrapper)).toMatchSnapshot();
     });
 });

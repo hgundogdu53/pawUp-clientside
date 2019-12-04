@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateUser component renders without crashing 1`] = `
+<main
+  className="flex-container"
+>
+  <header>
+    <h1
+      className="update-user-title"
+    >
+      Update User
+    </h1>
+  </header>
+  <section
+    className="update-user-section"
+  >
+    <form
+      className="update-user-form"
+      id="update-user-form"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="first_name"
+        >
+          First Name
+        </label>
+        <input
+          id="first_name"
+          name="first_name"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="last_name"
+        >
+          Last Name
+        </label>
+        <input
+          id="last_name"
+          name="last_name"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          id="email"
+          name="email"
+          required={true}
+          type="email"
+        />
+      </div>
+      <button
+        className="sub-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        className="res-btn"
+        type="reset"
+      >
+        Reset
+      </button>
+    </form>
+  </section>
+</main>
+`;

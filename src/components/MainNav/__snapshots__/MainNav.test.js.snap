@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainNav component renders without crashing 1`] = `
+<div
+  className="header-nav"
+>
+  <Link
+    className="nav-title"
+    to="/"
+  >
+    <img
+      alt="paw-logo"
+      className="icon"
+      src="paws-logo.png"
+    />
+    <span
+      className="title"
+    >
+      PawUp
+    </span>
+  </Link>
+  <Menu
+    bodyClassName=""
+    burgerBarClassName=""
+    burgerButtonClassName=""
+    className=""
+    crossButtonClassName=""
+    crossClassName=""
+    disableAutoFocus={false}
+    disableCloseOnEsc={false}
+    htmlClassName=""
+    id=""
+    itemClassName=""
+    itemListClassName=""
+    menuClassName=""
+    morphShapeClassName=""
+    noOverlay={false}
+    noTransition={false}
+    onStateChange={[Function]}
+    outerContainerId=""
+    overlayClassName=""
+    pageWrapId=""
+    right={true}
+    styles={Object {}}
+    width={300}
+  >
+    <Link
+      className="menu-item"
+      id="home"
+      to="/"
+    >
+      Home
+    </Link>
+    <br />
+    <Link
+      className="menu-item"
+      id="demo"
+      to="/posts"
+    >
+      Posts
+    </Link>
+    <br />
+    <Link
+      className="menu-item"
+      id="signup"
+      to="/signup"
+    >
+      Sign Up
+    </Link>
+    <br />
+    <Link
+      className="menu-item"
+      id="login"
+      to="/login"
+    >
+      Log In
+    </Link>
+  </Menu>
+</div>
+`;

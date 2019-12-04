@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post component renders without crashing 1`] = `
+<main
+  className="flex-container"
+>
+  <header>
+    <h1
+      className="post-title"
+    >
+      New Post
+    </h1>
+  </header>
+  <section
+    className="post-form-section"
+  >
+    <form
+      className="post-form"
+      id="post-form"
+    >
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="pet_name"
+        >
+          Pet Name
+        </label>
+        <input
+          name="pet_name"
+          placeholder="Muffin"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="type_of_pet"
+        >
+          Type of Pet
+        </label>
+        <input
+          name="type_of_pet"
+          placeholder="Cat"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="birthdate"
+        >
+          Birthdate
+        </label>
+        <input
+          name="birthdate"
+          type="date"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="location"
+        >
+          Location
+        </label>
+        <input
+          name="location"
+          placeholder="San Francisco"
+          type="text"
+        />
+      </div>
+      <div
+        className="form-section"
+      >
+        <label
+          htmlFor="hobbies"
+        >
+          Hobbies
+        </label>
+        <textarea
+          name="hobbies"
+          placeholder="Please type in hobbies of your pet"
+          required={true}
+          rows="15"
+        />
+      </div>
+      <button
+        className="sub-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        className="res-btn"
+        type="reset"
+      >
+        Reset
+      </button>
+    </form>
+  </section>
+</main>
+`;
